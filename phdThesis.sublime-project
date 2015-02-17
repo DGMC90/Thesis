@@ -2,7 +2,16 @@
 	"folders":
 	[
 		{
+			"follow_symlinks": true,
 			"path": "/Users/darrencunningham/Dropbox/darren/Write-ups/Thesis"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "images"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "chapters"
 		}
 	]
 }

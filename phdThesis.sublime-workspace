@@ -11,7 +11,7 @@
 			"file": "chapters/startPages.tex",
 			"settings":
 			{
-				"buffer_size": 1263,
+				"buffer_size": 1966,
 				"line_ending": "Unix"
 			}
 		}
@@ -31,7 +31,11 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -42,6 +46,12 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/darrencunningham/Dropbox/darren/Write-ups/Thesis",
+		"/Users/lpxdc1/Dropbox/darren/Write-ups/Thesis/images",
+		"/Users/lpxdc1/Dropbox/darren/Write-ups/Thesis/chapters"
+	],
 	"file_history":
 	[
 		"/Users/darrencunningham/Dropbox/darren/Write-ups/Thesis/chapters/startPages.tex",
@@ -86,17 +96,18 @@
 				{
 					"buffer": 0,
 					"file": "chapters/startPages.tex",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1263,
+						"buffer_size": 1966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								324,
-								324
+								1164,
+								1164
 							]
 						],
 						"settings":
@@ -107,6 +118,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -143,10 +155,19 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"output.latex_log":
 	{
 		"height": 175.0
 	},
+	"project": "phdThesis.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -168,10 +189,25 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 273.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

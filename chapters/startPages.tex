@@ -1,6 +1,7 @@
 \documentclass[11pt, a4paper]{report}
 
 
+%Specify packages to be used and package settings ---------------------------------------
 %essential packages
 \usepackage{amsmath, amssymb, amsthm}
 \usepackage{graphicx,color}
@@ -41,66 +42,43 @@
 
 
 
-\graphicspath{{/Users/darrencunningham/Dropbox/darren/Write-ups/Thesis/images/}}
+\graphicspath{{/Users/lpxdc1/Dropbox/darren/Write-ups/Thesis/images/}}
 
 
 \title{
 	{Measuring Selective Responses to Coherent Plaids in Mid-Level Vision}\\
 	\bigskip
-	{\includegraphics[width=5cm,height=3cm,angle=0]{universityLogo.png}}
-}\par
-
-\bigskip
-
+	{\includegraphics[width=7cm,height=4cm,angle=0]{universityLogo.png}}
+}
 \author{Darren Gavin Matthew Cunningham}
 \date{Day Month Year}
 
 
-
+%begin document---------------------------------------------------------------
 \begin{document}
 
+%Pre-chapter sections --------------------------------------------------------
 \maketitle
 
+%set page numbering for pre-chapters to roman numerals
+\pagenumbering{roman}
 
 \chapter*{Abstract}
-
-\begin{center}
-Here is where my abstract text will go.
-
-\end{center}
-
+\input{abstract.tex}
 
 \chapter*{}
-
-\vspace{\fill}
-\begin{center}
-To John
-\end{center}
-\vspace{\fill}
-
-
+\input{dedication.tex}
 
 \chapter*{Acknowledgements}
-
-To everyone who helped....etc
-
-
+\input{acknowledgement.tex}
 
 \chapter*{Declaration}
-
-This is my own work etc....
-
-
+\input{declaration.tex}
 
 \chapter*{}
+\input{introQuote.tex}
 
-\vspace{\fill}
-\begin{center}
-``Here is a witty quote that accurately describes my work.''
-\end{center}
-\vspace{\fill}
-
-
+%relevant contents pages for chapters, figures, and tables.
 \tableofcontents
 
 \listoffigures
@@ -108,5 +86,34 @@ This is my own work etc....
 \listoftables
 
 
+
+
+%Beginning of thesis chapters -------------------------------------------------
+\chapter{Signal Combinations from Retina to Cortex}
+\input{chapter1.tex}
+
+%set page numbering for this chapter and following chapters to arabic
+\pagenumbering{arabic}
+
+\chapter{Response Tuning at V1}
+%\input{chapter2.tex}
+
+
+\chapter{Combinations Beyond V1}
+%input{chapter3.tex}
+
+
+\chapter{General Methods}
+%input{chapter4.tex}
+
+
+%\chapter{}
+
+%\appendix
+%\chapter{Appendix Title}
+%\input{chapters/appendix}
+
+
+%end document ------------------------------------------------------------------
 \end{document}
 
