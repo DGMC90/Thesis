@@ -1,0 +1,6 @@
+PWD /Users/darrencunningham/Dropbox/darren/Write-ups/Thesis/chapters
+INPUT /usr/local/texlive/2013/texmf.cnf
+INPUT /usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2013/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/darrencunningham/Dropbox/darren/Write-ups/Thesis/chapters/chapter1.tex
+OUTPUT Output/chapter1.log
